@@ -1,23 +1,9 @@
-import Form from "./hooks/Form"
-
+import LandingPage from "./pages/LandingPage"
 function App() {
-  // let data = {
-  //   onSubmit: (d) => {
-  //     console.log(d)
-  //   },
-  //   className: "",
-  //   form: [
-  //     {
-  //       type: "text",
-  //       requried: true,
-  //       label: "label",
-  //       name: "name",
-  //     }
-  //   ]
-  // }
+
   return (
     <>
-      <Form />
+      <LandingPage />
     </>
   )
 }
