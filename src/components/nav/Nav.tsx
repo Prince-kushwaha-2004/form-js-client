@@ -1,6 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import { apiCall } from '../../utils/axios'
 const navigation = [
     { name: 'Dashboard', href: '#', current: true },
     { name: 'Team', href: '#', current: false },
@@ -10,6 +10,14 @@ const navigation = [
 
 function classNames(...classes: any) {
     return classes.filter(Boolean).join(' ')
+}
+const test = (): void => {
+    console.log("hiii")
+    apiCall({
+        method: "get", url: "project", data: { email: "prince121kk@gmail.com", password: "Prince@123" }, contentType: "application/json", cb: (data) => {
+            console.log(data)
+        }
+    })
 }
 
 export default function Nav() {
@@ -57,6 +65,7 @@ export default function Nav() {
                         <button
                             type="button"
                             className="relative rounded-full bg-blue-400 p-1 text-white hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-500 focus:outline-hidden"
+                            onClick={test}
                         >
                             <span className="absolute -inset-1.5" />
                             <span className="sr-only">View notifications</span>
