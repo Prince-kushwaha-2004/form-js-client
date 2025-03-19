@@ -1,35 +1,33 @@
 import Nav from "../components/nav/Nav"
+
 const LandingPage = () => {
     const cards = [
         {
-            title: "Reusable Forms",
-            description: " Create forms once and reuse them anywhere in your project."
+            title: "Reusable & Customizable Forms",
+            description: "Create forms once, tailor them to your needs, and reuse them anywhere."
         },
         {
             title: "Seamless Integration",
-            description: " Simply import the package and use it with an API key for fast implementation."
+            description: "Simply import the package and use it with an API key for quick implementation."
         },
         {
-            title: "Customizable",
-            description: " Tailor the forms to suit your design and functionality needs."
-        },
-        {
-            title: "Effortless Sharing",
-            description: " Generate unique links to share forms, making data collection a breeze."
+            title: "Effortless Sharing & Data Collection",
+            description: "Generate unique links for easy form sharing and smooth data collection."
         }
-    ]
+    ];
+    
     return (
         <main className="w-screen h-screen flex flex-col">
             <Nav />
-            <div className="bg-gradient-to-r from-cyan-100 to-blue-200  flex-1 sm:m-4 sm:rounded-4xl  flex flex-col gap-4 justify-center items-center">
-                <h1 className="text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-neutral-900 font-bold">Create Custom Forms Effortlessly with Form JS</h1>
-                <h1 className="text-xl lg:text-2xl text-neutral-700">Build, Share, and Integrate Reusable Forms with Ease</h1>
+            <div className="bg-gradient-to-br from-blue-500 to-indigo-700 flex-1 sm:m-4 sm:rounded-4xl flex flex-col gap-4 justify-center items-center">
+                <h1 className="text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white font-bold">Create Custom Forms Effortlessly with FormJS</h1>
+                <h1 className="text-xl lg:text-2xl text-white/80">Build, Share, and Integrate Reusable Forms with Ease</h1>
                 <div className="flex gap-4">
-                    <button className="bg-white px-4 py-2 rounded font-bold">
+                    <button className="bg-white px-4 py-2 hover:shadow-xl rounded-md font-semibold">
                         Get Started
                     </button>
-                    <button className="bg-black  text-white px-4 py-2 rounded font-bold">
-                        Star on Github
+                    <button className="bg-black hover:shadow-xl text-white px-4 py-2 rounded-full font-semibold">
+                        Star On Github
                     </button>
                 </div>
                 <div className="flex gap-4 flex-wrap justify-center mt-16">
