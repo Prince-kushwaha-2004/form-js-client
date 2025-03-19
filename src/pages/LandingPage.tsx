@@ -26,7 +26,7 @@ const LandingPage = () => {
                     <button className="bg-white px-4 py-2 hover:shadow-xl rounded-md font-semibold">
                         Get Started
                     </button>
-                    <button className="bg-black hover:shadow-xl text-white px-4 py-2 rounded-full font-semibold">
+                    <button className="bg-black hover:shadow-xl text-white px-5 py-3 rounded-full font-semibold">
                         Star On Github
                     </button>
                 </div>

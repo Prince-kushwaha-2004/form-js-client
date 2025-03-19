@@ -144,7 +144,7 @@ export default function Register() {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Customizable Forms</h3>
-                  <p className="text-white/70">Create, tailor, and reuse forms effortlessly</p>
+                  <p className="text-white/70">Tailor forms to fit your needs</p>
                 </div>
               </div>
 
@@ -168,32 +168,29 @@ export default function Register() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold">Quick Sharing</h3>
-                  <p className="text-white/70">Generate links for seamless data collection</p>
+                  <h3 className="text-white font-semibold">Quick & Effortless Sharing</h3>
+                  <p className="text-white/70">Generate links instantly</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="mt-1 flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-lg bg-white/20 backdrop-blur-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M13 3a9 9 0 0 0-9 9H1l3.89 3.89l.07.14L9 12H6a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.9 8.9 0 0 0 13 21a9 9 0 0 0 9-9a9 9 0 0 0-9-9"/></svg>
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold">Quick Sharing</h3>
-                  <p className="text-white/70">Generate links for seamless data collection</p>
+                  <h3 className="text-white font-semibold">Reusable Forms</h3>
+                  <p className="text-white/70">Create once, use anywhere</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="mt-1 flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-lg bg-white/20 backdrop-blur-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" width="30" height="30" viewBox="0 0 20 20"><path fill="#fff" d="M17 5.5A2.5 2.5 0 0 0 14.5 3h-9A2.5 2.5 0 0 0 3 5.5v9A2.5 2.5 0 0 0 5.5 17H10v-1H5.5A1.5 1.5 0 0 1 4 14.5V7h12v2.268A2 2 0 0 1 17 11zM5.5 4h9A1.5 1.5 0 0 1 16 5.5V6H4v-.5A1.5 1.5 0 0 1 5.5 4m9.5 6a1 1 0 0 0-1 1v7a1 1 0 1 0 2 0v-7a1 1 0 0 0-1-1m-3 4a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0v-3a1 1 0 0 0-1-1m5-1a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0z"/></svg>
+                  
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold">Quick Sharing</h3>
-                  <p className="text-white/70">Generate links for seamless data collection</p>
+                  <h3 className="text-white font-semibold">Seamless Data Collection</h3>
+                  <p className="text-white/70">Collect responses with ease</p>
                 </div>
               </div>
             </div>
