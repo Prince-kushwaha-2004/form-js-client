@@ -21,9 +21,9 @@ const LandingPage = () => {
     return (
         <main className="w-screen h-screen flex flex-col">
             <Nav />
-            <div className="bg-purple-700 flex-1 sm:m-4 sm:rounded-4xl  flex flex-col gap-4 justify-center items-center">
-                <h1 className="text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white font-bold">Create Custom Forms Effortlessly with Form JS</h1>
-                <h1 className="text-xl lg:text-2xl text-purple-200">Build, Share, and Integrate Reusable Forms with Ease</h1>
+            <div className="bg-gradient-to-r from-cyan-100 to-blue-200  flex-1 sm:m-4 sm:rounded-4xl  flex flex-col gap-4 justify-center items-center">
+                <h1 className="text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-neutral-900 font-bold">Create Custom Forms Effortlessly with Form JS</h1>
+                <h1 className="text-xl lg:text-2xl text-neutral-700">Build, Share, and Integrate Reusable Forms with Ease</h1>
                 <div className="flex gap-4">
                     <button className="bg-white px-4 py-2 rounded font-bold">
                         Get Started
@@ -36,14 +36,14 @@ const LandingPage = () => {
                     {cards.map((value, index) => {
                         return (
                             <div
-                                className="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-md border border-opacity-20 border-purple-400 w-88"
+                                className="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-md border border-opacity-20 border-blue-300 w-88"
                                 key={index}
                             >
                                 <div className="flex items-start">
                                     <div
-                                        className="flex-shrink-0 h-10 w-10 rounded-full bg-purple-200 flex items-center justify-center"
+                                        className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center"
                                     >
-                                        <span className="text-purple-800">✧</span>
+                                        <span className="text-blue-800">✧</span>
                                     </div>
                                     <div className="ml-4">
                                         <h3
