@@ -1,7 +1,9 @@
 import axios, { AxiosResponse } from "axios";
+import toast from "react-hot-toast";
 
 const instance = axios.create({
     baseURL: 'https://form-js-server.onrender.com/api/',
+    // baseURL: "http://localhost:8000/api/"
 });
 
 type requestType = {
@@ -23,14 +25,14 @@ type errorResopnse = {
 const handleError = (error: errorResopnse) => {
     switch (error?.status) {
         case 401:
-            // Router.push("/admin");
+            toast.error(error.data.error)
             console.log(error);
             break;
         case 400:
-            // toast.error(error.data.error)
-            console.log(error);
+            toast.error(error.data.error)
             break;
         default:
+            toast.error(error.data.error)
             console.log(error);
     }
 };
